@@ -11,9 +11,22 @@ const quotesArray = [
     "Keep working hard"
 ];
 
+const colorsArray = [
+    "#fcba03",
+    "#0352fc",
+    "#f403fc",
+    "#fc0356",
+    "#562b63",
+    "#562b63" 
+
+]
+
 function generateQuote(){
     const randomIndex = Math.floor(Math.random() * quotesArray.length);
     quote.textContent = `${quotesArray[randomIndex]}`;
-    console.log(randomIndex);
+   
+    const randomColorIndex = Math.floor(Math.random() * colorsArray.length)
+    HTML.style.backgroundColor = `${colorsArray[randomColorIndex]}`
 
+    
 }

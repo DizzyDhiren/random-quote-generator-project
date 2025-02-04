@@ -26,3 +26,19 @@ html{
     background-color: #fff;
     box-shadow: 8px 10px 0px 4px black;
 }
+
+#generate-button :active{
+    box-shadow: none;
+}
+
+.quote-container{ 
+    text-align: center;
+}
+
+#quote{ 
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
